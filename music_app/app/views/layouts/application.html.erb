@@ -10,7 +10,9 @@
 
   </head>
 
+
   <body>
+        <div>Music App</div>
   <% if logged_in? %>
   <h4>Welcome, <%= current_user.email %> </h4>
    <form action="<%= session_url %>" method="POST">

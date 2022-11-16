@@ -14,9 +14,27 @@
  *= require_self
  */
 
- .login_header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    left: 150px;
+ a {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: rgba(24, 75, 127, 0.185);
+    border-radius: 2px;
+ }
+ a:visited{
+
+    margin-top: 8px;
+
+    font-size: 5px;
+    background-color: rgba(26, 116, 42, 0.296);
+    border-radius: 2px;
+ }
+
+div{
+    font-size: 50px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 8px;
  }
